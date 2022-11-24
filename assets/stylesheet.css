@@ -1,0 +1,220 @@
+
+:root{
+    --main-color: #34527e;
+    --secondary-color:#5ca3a4;
+    --tertiary-color:#515358; 
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aliceblue;
+    color:var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: var(--tertiary-color);
+    color: var(--tertiary-color);
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+header h1{
+    background-color: var(--secondary-color);
+    font-size: 45px;
+    padding: 0 0 0 60px;
+    margin:5px 5px 7px 0; 
+}
+
+nav {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav a {
+    Color: var(--secondary-color);
+    font-weight: bold;
+    padding: 15px 20px 10px 0px;
+    text-align: center;
+}
+
+#banner {
+    height: 250px;
+    width: 100%;
+    background-image: url(../assets/images/3.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+}
+
+ #banner h2  {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    line-height: 1.5;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    margin:20px 60px; 
+}
+
+#container{
+    width: 1400px;
+    margin-bottom: 30px;
+}
+
+.section{ 
+    display: block;
+    margin-top:50px;
+    display: flex;
+}
+
+h3 {
+    color:var(--main-color);
+    font-size: 35px;
+    padding: 10px;
+    text-align: right;
+    margin-right: 30px;
+    min-width: 240px;
+    border-right:solid 3px var(--main-color);
+}    
+
+p {
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works-examples{ 
+    position: absolute;
+    bottom: 30px;
+    background-color: var(--secondary-color);
+    }
+
+h4 {
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    text-align: left;
+    bottom: 30px;
+}
+
+.work-paragraph {
+    font-size: 12px;
+}
+
+#beach{    
+    height: 500px;
+    width: 1050px;
+    background-image: url(../assets/images/4.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: inline-block; 
+    margin:20px;
+    border: solid 5px var(--secondary-color);
+    opacity: 0.5;
+}
+#beach:hover {
+    opacity: 1;
+  }
+
+#sunflowers{
+    height: 250px;
+    width: 500px;
+    background-image: url(../assets/images/1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: inline-block; 
+    margin:20px;
+    border: solid 5px var(--secondary-color);
+    opacity: 0.5;
+}
+#sunflowers:hover {
+    opacity: 1;
+  }
+  
+#inland{
+    height: 250px;
+    width: 500px;
+    background-image: url(../assets/images/5.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: inline-block; 
+    margin:20px;
+    border: solid 5px var(--secondary-color);
+    opacity: 0.5;
+}
+#inland:hover {
+    opacity: 1;
+  }
+
+#sunrise{
+    height: 250px;
+    width: 500px;
+    background-image: url(../assets/images/2.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: inline-block; 
+    margin:20px;
+    border: solid 5px var(--secondary-color);
+    opacity: 0.5;
+}
+#sunrise:hover {
+    opacity: 1;
+  }
+
+#roots{
+    height: 250px;
+    width: 500px;
+    background-image: url(../assets/images/6.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: inline-block; 
+    margin:20px;
+    border: solid 5px var(--secondary-color);
+    opacity: 0.5;  
+}
+#roots:hover {
+    opacity: 1;
+  }
+
+#contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    justify-content: space-between;
+    list-style: none;
+    font-size:18px;
+}
+
+Li{
+   padding: 10px 65px;
+   
+}
+
+Li a{
+    text-decoration: none;
+    color: var(--main-color);
+    border-bottom: solid 3px var(--main-color);
+}
