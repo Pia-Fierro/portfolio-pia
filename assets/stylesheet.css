@@ -199,8 +199,13 @@ h4 {
 
 footer {
     display: flex;
+    width: 1400px;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+footer h3 {
+    width: 240px;
 }
 
 #contact-links {
@@ -209,7 +214,7 @@ footer {
     padding: 40px 0;
     justify-content: space-between;
     list-style: none;
-    font-size:18px;
+    font-size:17px;
 }
 
 li{
@@ -243,14 +248,10 @@ li a {
         flex-wrap: wrap;
     }
 
-    #about-me {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #about-me p {
         display: flex;
         flex-wrap: wrap;
+        padding: 20px;
     }
  
     h3 {
@@ -259,10 +260,10 @@ li a {
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: left;
-        font-size: 10px;
+        font-size: 30px;
     }
 
-    #work-section article {
+    #work-section {
         display: flex;
         flex-direction: column;
     }
@@ -270,6 +271,18 @@ li a {
     #beach {    
         height: 250px;
         width: 500px;
+    }
+
+    Footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    Footer ul {
+        flex: display;
+        flex-direction: column;
+        
     }
 
 }
