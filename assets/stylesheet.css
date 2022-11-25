@@ -74,18 +74,16 @@ nav a {
 
 #container {
     width: 1400px;
-    margin-bottom: 30px;
 }
 
 .section{ 
-    display: block;
     margin-top:50px;
     display: flex;
 }
 
 h3 {
     color:var(--main-color);
-    font-size: 35px;
+    font-size: 50px;
     padding: 10px;
     text-align: right;
     margin-right: 30px;
@@ -115,8 +113,8 @@ h4 {
     bottom: 30px;
 }
 
-.work-paragraph {
-    font-size: 12px;
+.works-paragraph {
+        font-size: 12px;
 }
 
 #beach {    
@@ -199,6 +197,12 @@ h4 {
     opacity: 1;
   }
 
+footer {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 #contact-links {
     display: flex;
     flex-wrap: wrap;
@@ -219,22 +223,36 @@ li a {
     border-bottom: solid 3px var(--main-color);
 }
 
+/*media query for a responsive website*/
+
 @media screen and (max-width: 844px) {
     header {
         justify-content: center;
-        background-color: red;
     }
+
+    header h1 {
+        padding: 0;
+    }
+
+    #container {
+        width: 600px;
+    }
+
     .section{
         display: flex;
         flex-wrap: wrap;
     }
+
     #about-me {
         display: flex;
         flex-wrap: wrap;
     }
-    /* #about-me p {
-      
-    } */
+
+    #about-me p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
     h3 {
         border-right:none;
         border-bottom: 5px solid var(--main-color);
@@ -249,7 +267,9 @@ li a {
         flex-direction: column;
     }
 
-    #container {
+    #beach {    
+        height: 250px;
         width: 500px;
     }
+
 }
