@@ -20,4 +20,4 @@ Portfolio present with:
 ![portfolio-pia](./assets/images/screenshot-porfolio-pia-project.jpg)
 
 # Link to deploy application:
-[https://pia-fierro.github.io/portfolio-pia/](https://github.com/Pia-Fierro/portfolio-pia/)
+[https://pia-fierro.github.io/portfolio-pia/](https://pia-fierro.github.io/portfolio-pia/)
