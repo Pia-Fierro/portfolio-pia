@@ -11,7 +11,7 @@ Portfolio present with:
 
 *Developer's name, background photo and links to portfolio content about the developer, her work and contact.
 *Section about the developer history.
-*Work contect section with pictures linked to projects (projects not developed yet).
+*Work content section with pictures linked to projects (projects not developed yet).
 *Personal contact section.
 *Responsive layout that adapts to viewport.
 ```
@@ -20,5 +20,4 @@ Portfolio present with:
 ![portfolio-pia](./assets/images/screenshot-porfolio-pia-project.jpg)
 
 # Link to deploy application:
-[](https://)
-
+[https://pia-fierro.github.io/code-refactor/](https://pia-fierro.github.io/code-refactor/)
