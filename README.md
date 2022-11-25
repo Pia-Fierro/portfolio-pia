@@ -8,7 +8,6 @@ SO THAT I can follow the Mock-Up example and built my first portfolio
 # Portfolio Pia
 ```
 Portfolio present with:
-
 *Developer's name, background photo and links to portfolio content about the developer, her work and contact.
 *Section about the developer history.
 *Work content section with pictures linked to projects (projects not developed yet).
