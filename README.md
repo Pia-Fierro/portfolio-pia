@@ -1,10 +1,11 @@
 # User Story
 ```
-As A full stack web developer student
+As A full stack developer student
 Given a Mock-Up with gift format of a porfolio example
 SO THAT I can follow the Mock-Up example and built my first portfolio
+```
 
-# Portfolio-Pia
+# Portfolio Pia
 ```
 Portfolio present with:
 
@@ -13,6 +14,7 @@ Portfolio present with:
 *Work contect section with pictures linked to projects (projects not developed yet).
 *Personal contact section.
 *Responsive layout that adapts to viewport.
+```
 
 # Screenshot:
 ![portfolio-pia](./assets/images/screenshot-porfolio-pia-project.jpg)
